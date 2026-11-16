@@ -1,0 +1,3 @@
+# Dataset notes
+
+The supplied CSVs are synthetic benchmark scenarios, not real-world agent logs or human-subject data. There are 600 episodes across six scenario families, split into 360 development, 120 validation and 120 test episodes. Splits are grouped by template to avoid template overlap. Required fields include episode ID, impact, uncertainty, reversibility and binary harmful outcome. The original archive does not include a formal dataset license or a fully documented standalone generator. Do not claim external dataset provenance or public redistribution permission without further verification.
