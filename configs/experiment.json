@@ -1,0 +1,13 @@
+{
+  "project_name": "Objective-Uncertainty and Recovery Benchmark",
+  "master_seed": 20261028,
+  "primary_metric": "mean_residual_harm",
+  "risk_formula": "impact * uncertainty * (1 - reversibility)",
+  "risk_threshold": null,
+  "policies": [
+    "fixed_threshold_with_rollback",
+    "fixed_threshold_without_rollback",
+    "risk_aware_with_rollback"
+  ],
+  "test_results_viewed": true
+}
