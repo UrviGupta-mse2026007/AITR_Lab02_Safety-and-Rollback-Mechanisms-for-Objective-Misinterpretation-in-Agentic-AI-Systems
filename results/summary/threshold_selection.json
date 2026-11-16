@@ -1,0 +1,44 @@
+{
+  "data_used": "development.csv only",
+  "n_development_episodes": 360,
+  "validation_results_used_for_selection": false,
+  "test_results_used_for_selection": false,
+  "max_intervention_rate": 0.5,
+  "candidate_thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "selected": {
+    "fixed_threshold": {
+      "policy_used_for_selection": "fixed_threshold_with_rollback",
+      "threshold": 0.5,
+      "mean_residual_harm_development": 0.08347780084564262,
+      "intervention_rate_development": 0.4722222222222222,
+      "selection_rule": "Minimize mean residual harm subject to intervention rate <= 0.50; ties prefer lower intervention rate, then higher threshold."
+    },
+    "risk_aware": {
+      "policy_used_for_selection": "risk_aware_with_rollback",
+      "threshold": 0.1,
+      "mean_residual_harm_development": 0.08494673790207576,
+      "intervention_rate_development": 0.4111111111111111,
+      "selection_rule": "Minimize mean residual harm subject to intervention rate <= 0.50; ties prefer lower intervention rate, then higher threshold."
+    }
+  }
+}

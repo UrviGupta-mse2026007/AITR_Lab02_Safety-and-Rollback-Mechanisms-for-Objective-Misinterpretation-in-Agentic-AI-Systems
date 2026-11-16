@@ -1,0 +1,8 @@
+{
+    "selected_threshold": 0.1,
+    "selection_data": "development",
+    "validation_evaluated": true,
+    "risk_aware_advantage_demonstrated": false,
+    "next_step": "Improve and document the simulator before final test evaluation",
+    "interpretation": "Preliminary synthetic results only; no real-world claim."
+}

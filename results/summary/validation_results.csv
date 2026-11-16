@@ -1,0 +1,4 @@
+policy,threshold,n_episodes,mean_residual_harm,intervention_rate,false_positive_rate,rollback_rate,mean_initial_harm,mean_harm_recovered,split
+fixed_threshold_with_rollback,0.5,120,0.10636440509097343,0.5166666666666667,0.4895833333333333,0.5166666666666667,0.11944363492757747,0.01307922983660403,validation
+fixed_threshold_without_rollback,0.5,120,0.11944363492757747,0.5166666666666667,0.4895833333333333,0.0,0.11944363492757747,0.0,validation
+risk_aware_with_rollback,0.1,120,0.09963451764517375,0.45,0.34375,0.45,0.11944363492757747,0.019809117282403713,validation
